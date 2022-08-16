@@ -1,0 +1,44 @@
+#teste{
+         width: 90%;
+         background-color: blue;
+         height: 700px;
+         margin: 0 auto;
+     
+}
+h1{ font-size: 48px;}
+@media  (max-width: 480px) {
+    #teste {
+      background-color: lightblue;
+    
+    }
+  }
+
+  h1{ font-size: 12px;}
+
+
+  @media  (max-width: 481px) {
+    body {
+      background-color: rgb(255, 0, 0);
+    }
+  }
+  h1{ font-size: 60px;}
+
+
+  @media (max-width: 681px) {
+    body {
+      background-color: rgb(2, 255, 129);
+    }
+  }
+  h1{ font-size: 90px;}
+
+  h1{ font-size: 48px;}
+
+
+
+@media  (max-width: 980px) {
+    #teste {
+      background-color: rgb(183, 0, 255);
+    
+    }
+  }
+
